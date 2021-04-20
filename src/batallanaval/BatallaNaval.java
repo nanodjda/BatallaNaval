@@ -20,6 +20,8 @@ public class BatallaNaval {
      */
     
     
+    
+    
     static String jugador[][] = new String[7][7];
     static String computadora[][] = new String[7][7];
     static boolean ultimoAtaque = false;
@@ -34,6 +36,7 @@ public class BatallaNaval {
         jugador = inicializarTablero(jugador);
         computadora = inicializarTablero(computadora);
 
+        System.out.println("Hola!!!!");
         
         String tableroCentral = "";
 
